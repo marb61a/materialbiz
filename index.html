@@ -319,8 +319,8 @@
                 
                 Materialize.scrollFire(options);
                 
-                const position = [53.3498, 6.2603];
-                const centerPosition = [53.3498, 6.2603];
+                const position = [53.3498, -6.2603];
+                const centerPosition = [53.3498, -6.2603];
                 
                 function showGoogleMaps(){
                     // Map positions 
@@ -337,7 +337,7 @@
                     };
                     
                     // Create the map
-                    map = new google.maps.Mao(document.getElementById('googlemap'), mapOptions);
+                    map = new google.maps.Map(document.getElementById('googlemap'), mapOptions);
                     
                     // Show map marker
                     marker = new google.maps.Marker({
